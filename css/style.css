@@ -995,6 +995,12 @@ input[type="checkbox"] {
     #compi{
         border: none;
     }
+    .icon-grid-main{
+        max-width: 70%;
+    }
+    .preloader{
+        width: 100%;
+    }
 
 @media (min-width: 720px) {
     main {
