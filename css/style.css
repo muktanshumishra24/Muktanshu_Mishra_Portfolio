@@ -952,6 +952,10 @@ input[type="checkbox"] {
 @media (max-width: 600px) {
     main {
         width: 100%;
+        overflow: hidden;
+    }
+    .header{
+        width: 80%;
     }
     h1 {
         font-size: 48px;
@@ -962,9 +966,6 @@ input[type="checkbox"] {
         width: 100%;
         text-align: center;
 
-    }
-    .work-grid{
-        max-width: 50px;
     }
     #banner h3 {
         font-size: 20px;
@@ -992,14 +993,21 @@ input[type="checkbox"] {
     #UI{
         border: none;
     }
-    #compi{
+    #comp{
         border: none;
-    }
-    .icon-grid-main{
-        max-width: 70%;
     }
     .preloader{
         width: 100%;
+    }
+    .work-grid{
+        width: 50%;
+        /* display: none; */
+    }
+    .contact-content{
+        width: 80%;
+    }
+    .contwork{
+        max-width: 90%;
     }
 
 @media (min-width: 720px) {
