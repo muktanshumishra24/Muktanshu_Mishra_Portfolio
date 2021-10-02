@@ -47,7 +47,7 @@ var i = 0,
 var textArray = [
     "WEB DEVELOPER",
     "COMPETETIVE CODER",
-    "UI/UX & FRONTEND DESIGNER",
+    "UI/UX DESIGNER",
 ];
 
 var speedForward = 100,

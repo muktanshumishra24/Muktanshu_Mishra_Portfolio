@@ -12,7 +12,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/contactstyle.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -40,7 +40,7 @@
 				<input type="checkbox" id="active">
     			<label for="active" class="menu-btn"><span></span></label>
     			<label for="active" class="close"></label>
-    			<div class="rapper">
+    			<div class="menu-wrapper">
     			<ul>         
       				<li><a href="index.html" data="Home">Home</a></li>         
       				<li><a href="about.html" data="Education & Skills">Education & Skills</a></li>       
@@ -53,22 +53,55 @@
 	</header>
 	
 	<section class="contactme-section" id="contactme">
-	<div id="mail" data-aos="zoom-in" data-aos-duration="2500">
+	<div id="mail" data-aos="zoom-out" data-aos-duration="2000">
     	<div id="mailbanner">
 			<div class="section-title">
 				<h1 id="headcontact">Contact Me</h1>
 				<p class="contact-content">I am available and active on almost every social media.
 					You can message me, I will reply as soon as I can .</p>
-				<ul class="iconscont">
-					<a href="https://twitter.com/MuktanshuM" target="_blank" rel="noopener noreferrer"><li><i class="fab fa-twitter"></i></li></a>
-					<a href="https://www.instagram.com/yesits_muktanshumishra/" target="_blank" rel="noopener noreferrer"><li><i class="fab fa-instagram"></i></li></a>
-					<a href="https://www.linkedin.com/in/muktanshu-mishra-278a85181/"><li><i class="fab fa-linkedin-in"></i></li></a>
-					<a href="https://github.com/muktanshumishra24"><li><i class="fab fa-github"></i></li></a>
-				</ul>
+				<section class="section-contact">
+                <div class="contacticon-wrapper">
+                    <div class="button">
+                        <div class="icon">
+							<a href="https://www.instagram.com/yesits_muktanshumishra/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+							</a>
+                        </div>
+                        <span>Instagram</span>
+                    </div>
+
+                    <div class="button">
+                        <div class="icon">
+							<a href="https://github.com/muktanshumishra24">
+                            <i class="fab fa-github"></i>
+							</a>
+                        </div>
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="button">
+                        <div class="icon">
+							<a href="https://twitter.com/MuktanshuM" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+							</a>
+                        </div>
+                        <span>Twitter</span>
+                    </div>
+
+                    <div class="button">
+                        <div class="icon">
+							<a href="https://www.linkedin.com/in/muktanshu-mishra-278a85181/">
+                            <i class="fab fa-linkedin"></i>
+							</a>
+                        </div>
+                        <span>LinkedIn</span>
+                    </div>
+                </div>
+            </section>
 			</div>
         </div>
     	</div>
-    	<div data-aos="zoom-in" data-aos-duration="2500">
+    	<div data-aos="zoom-in" data-aos-duration="2000">
 			<img id="mailimg" src="img/contact me.png">
 		</div>
     </div>
